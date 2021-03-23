@@ -11,7 +11,7 @@ class RegistationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("RegistationViewController - viewDidLoad() called")
         // Do any additional setup after loading the view.
     }
     
