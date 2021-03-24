@@ -13,6 +13,8 @@ class RegistationViewController: UIViewController {
         super.viewDidLoad()
         print("RegistationViewController - viewDidLoad() called")
         // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .systemBackground
     }
     
 

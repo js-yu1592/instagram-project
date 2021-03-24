@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248E3003260B5ECA001F792A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E3002260B5ECA001F792A /* Extensions.swift */; };
 		24B2AD9025FA303A00570E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2AD8F25FA303A00570E7B /* AppDelegate.swift */; };
 		24B2AD9225FA303A00570E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2AD9125FA303A00570E7B /* SceneDelegate.swift */; };
 		24B2AD9425FA303A00570E7B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B2AD9325FA303A00570E7B /* HomeViewController.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0AD59837683E42FF4B991300 /* Pods-InstagramApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramApp.debug.xcconfig"; path = "Target Support Files/Pods-InstagramApp/Pods-InstagramApp.debug.xcconfig"; sourceTree = "<group>"; };
+		248E3002260B5ECA001F792A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		24B2AD8C25FA303A00570E7B /* InstagramApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B2AD8F25FA303A00570E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24B2AD9125FA303A00570E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				24CA86F62609B3EE00C072B4 /* DatabaseManager.swift */,
 				24CA86F92609B4ED00C072B4 /* AuthManager.swift */,
 				24CA86FC2609B54E00C072B4 /* StorageManager.swift */,
+				248E3002260B5ECA001F792A /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				24B2AD9025FA303A00570E7B /* AppDelegate.swift in Sources */,
 				24B2ADD125FA384C00570E7B /* SearchResultViewController.swift in Sources */,
 				24B2ADBB25FA379600570E7B /* LoginViewController.swift in Sources */,
+				248E3003260B5ECA001F792A /* Extensions.swift in Sources */,
 				24B2ADCE25FA383F00570E7B /* SearchViewController.swift in Sources */,
 				24B2ADB425FA36DC00570E7B /* ProfileViewController.swift in Sources */,
 				24CA86FA2609B4ED00C072B4 /* AuthManager.swift in Sources */,
@@ -502,6 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HF833JV2AF;
 				INFOPLIST_FILE = InstagramApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HF833JV2AF;
 				INFOPLIST_FILE = InstagramApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
