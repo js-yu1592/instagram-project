@@ -31,6 +31,9 @@ final class ProfileViewController: UIViewController {
         guard let collectionView = collectionView else {
             return
         }
+        
+        //The default backgroundColor of UICollectionView is "Black".
+        collectionView.backgroundColor = .systemBackground
         view.addSubview(collectionView)
     }
     

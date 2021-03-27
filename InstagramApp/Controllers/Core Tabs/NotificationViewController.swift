@@ -19,8 +19,8 @@ class NotificationViewController: UIViewController, UITableViewDelegate, UITable
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        title = "Notifications"
-
+        navigationItem.title = "Notifications"
+        
         view.backgroundColor = .systemBackground
         view.addSubview(tableView)
         
