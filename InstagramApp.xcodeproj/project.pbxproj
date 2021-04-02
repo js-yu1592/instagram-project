@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240558222616FB0B008FA0A2 /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240558212616FB0B008FA0A2 /* UserFollowTableViewCell.swift */; };
 		24396F3F26131BFB0004822D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24396F3E26131BFB0004822D /* Models.swift */; };
 		248E3003260B5ECA001F792A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248E3002260B5ECA001F792A /* Extensions.swift */; };
 		248FFED226105A7E00E9D747 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248FFED126105A7E00E9D747 /* FormTableViewCell.swift */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		0AD59837683E42FF4B991300 /* Pods-InstagramApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramApp.debug.xcconfig"; path = "Target Support Files/Pods-InstagramApp/Pods-InstagramApp.debug.xcconfig"; sourceTree = "<group>"; };
+		240558212616FB0B008FA0A2 /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
 		24396F3E26131BFB0004822D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		248E3002260B5ECA001F792A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		248FFED126105A7E00E9D747 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				24F0B85F260EED7C00060014 /* Home Feed */,
 				248FFED126105A7E00E9D747 /* FormTableViewCell.swift */,
 				248FFED5261061E800E9D747 /* PhotoCollectionViewCell.swift */,
+				240558212616FB0B008FA0A2 /* UserFollowTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				24F0B861260EED9B00060014 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				24B2ADD425FA387400570E7B /* PostEditorViewController.swift in Sources */,
 				24CA86FD2609B54E00C072B4 /* StorageManager.swift in Sources */,
+				240558222616FB0B008FA0A2 /* UserFollowTableViewCell.swift in Sources */,
 				24396F3F26131BFB0004822D /* Models.swift in Sources */,
 				248FFED226105A7E00E9D747 /* FormTableViewCell.swift in Sources */,
 				24B2ADC225FA37D500570E7B /* PostViewController.swift in Sources */,

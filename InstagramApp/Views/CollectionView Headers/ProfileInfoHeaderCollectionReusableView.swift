@@ -80,7 +80,9 @@ final class ProfileInfoHeaderCollectionReusableView: UICollectionReusableView {
         super.init(frame: frame)
         addSubViews()
         addButtonActions()
+        
         backgroundColor = .systemBackground
+        
         clipsToBounds = true
     }
     
